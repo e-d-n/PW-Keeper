@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:background="@color/color_lightGray">
+
+    <ImageView
+        android:id="@+id/imgDI"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/caution" />
+
+    <TextView
+        android:id="@+id/tvDAT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:text="Confirm Reset of Password"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Click YES to create a new master password"
+        android:textColor="@color/color_Black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnYES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/color_Transparent"
+        android:text="YES"
+        android:textColor="@color/color_deepBlue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/color_Transparent"
+        android:text="NO"
+        android:textColor="@color/color_deepBlue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

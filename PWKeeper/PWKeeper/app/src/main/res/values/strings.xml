@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PW Keeper</string>
+    <string name="add">ADD</string>
+    <string name="detail_view">Detail View</string>
+    <string name="list_view">List View</string>
+    <string name="action_settings">Reset Password</string>
+    <string name="hint_edit">To Edit Notes\nLONG PRESS on the Keys\nONLY 3 Lines Permitted</string>
+    <string name="snackbar_text">Permission Granted</string>
+    <string name="real_csb_text">SD CARD NOT Found\n\nInternal Storage Used</string>
+    <string name="real_csb_action">EXIT</string>
+</resources>

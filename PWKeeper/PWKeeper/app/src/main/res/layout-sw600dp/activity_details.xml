@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightGray"
+    tools:context="com.androidstackoverflow.pwkeeper.DetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/color_darkGray"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:theme="@style/ToolbarTheme">
+
+        <ImageView
+            android:id="@+id/imageTB"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="4dp"
+            android:src="@drawable/keyss64" />
+
+        <TextView
+            android:id="@+id/tvDA"
+            android:text="@string/detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_White"
+            android:textSize="28sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tvWebSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="130dp"
+        android:text="WebSite"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etWebSite"
+        android:layout_width="540dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="115dp"
+        android:backgroundTint="@color/color_Black"
+        android:inputType="text"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:maxLength="40"
+        android:nextFocusForward="@+id/etUN"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="180dp"
+        android:text="User Name"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUN"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="165dp"
+        android:backgroundTint="@color/color_Black"
+        android:inputType="text"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:maxLength="32"
+        android:nextFocusForward="@+id/etPW"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="230dp"
+        android:text="Password"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPW"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="215dp"
+        android:backgroundTint="@color/color_Black"
+        android:inputType="text"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:maxLength="32"
+        android:nextFocusForward="@+id/etSecQuestion"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSecQuestion"
+        android:text="Security Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/color_Black" />
+
+    <EditText
+        android:id="@+id/etSecQuestion"
+        android:layout_width="540dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="265dp"
+        android:backgroundTint="@color/color_Black"
+        android:inputType="text"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:maxLength="40"
+        android:nextFocusForward="@+id/etSecAnswer"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSecAnswer"
+        android:text="Security Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="330dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/color_Black" />
+
+    <EditText
+        android:id="@+id/etSecAnswer"
+        android:layout_width="540dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="@color/color_Black"
+        android:inputType="text"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:maxLength="40"
+        android:nextFocusForward="@+id/etNotes"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="380dp"
+        android:text="Notes"
+        android:textColor="@color/color_Black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="540dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="@color/color_Black"
+        android:gravity="top"
+        android:hint="@string/hint_edit"
+        android:inputType="text|textMultiLine"
+        android:textColor="@color/color_Black"
+        android:textColorHint="@color/color_deepBlue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="245dp"
+        android:background="@color/color_White"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="DELETE"
+        android:textColor="@color/color_Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="175dp"
+        android:background="@color/color_White"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="UPDATE"
+        android:textColor="@color/color_Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="SAVE"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="760dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_Black"
+        android:background="@color/color_White"
+        android:focusable="false" />
+
+</RelativeLayout>
+

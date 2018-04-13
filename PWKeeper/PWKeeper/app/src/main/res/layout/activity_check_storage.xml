@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightGray"
+    tools:context="com.androidstackoverflow.pwkeeper.CheckStorageActivity">
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/color_super_lightGray"
+        android:onClick="onNEXT"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:text="Click To Proceed"
+        android:textColor="@color/color_deepBlue"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+</RelativeLayout>
