@@ -35,4 +35,4 @@ If you want to code PW Keeper on your own tutorials can be found at our Web-Site
 If you want a FREE Windows Desktop EXE with installer this can be downloaded here.
 The Desktop Version is a JavaFX Project and will not work on Android devices.
 
-We are at https://androidstackoverflow.com/
+
